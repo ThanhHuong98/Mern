@@ -8,7 +8,7 @@ import SourceMapSupport from 'source-map-support';
 import bb from 'express-busboy';
 
 // import routes
-import todoRoutes from './routes/todo.server.route';
+import todoRoutes from './routes/todo.server.router';
 
 // define our app using express
 const app = express();
@@ -46,7 +46,7 @@ SourceMapSupport.install();
 app.use('/api', todoRoutes);
 
 app.get('/', (req,res) => {
-  return res.end('Api working');
+  return res.end('Api working...');
 })
 
 // catch 404
