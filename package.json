@@ -16,7 +16,7 @@
     "express": "^4.16.4",
     "express-busboy": "^7.0.1",
     "http-errors": "~1.6.3",
-    "mongoose": "^4.13.18",
+    "mongoose": "^4.13.21",
     "morgan": "^1.9.1",
     "source-map-support": "^0.5.12"
   },
